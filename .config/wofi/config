@@ -1,0 +1,6 @@
+mode=drun
+insensitive=true
+term=kitty
+hide_scroll=true
+width=400
+height=400

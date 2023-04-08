@@ -1,0 +1,13 @@
+
+[icons]
+# Add your icons mapping
+# use double quote the key and the value
+# take class name from 'hyprctl clients'
+"DEFAULT" = "${class} "
+"(?i)Kitty" = "  terminal "
+"Google-chrome" = "  Chrome "
+"Spotify" = "  Spotify "
+"Code" = "  vscode "
+"obsidian" = "  Obsidian "
+".*dolphin" = "   Dolphin "
+
