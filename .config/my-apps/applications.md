@@ -53,3 +53,4 @@ xournalpp
 yadm
 zsh
 zsh-completions
+hyprsome
