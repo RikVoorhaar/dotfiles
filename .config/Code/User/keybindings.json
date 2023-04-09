@@ -1,0 +1,67 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "shift+escape",
+        "command": "notifications.hideToasts",
+        "when": "notificationToastsVisible"
+    },
+    {
+        "key": "escape",
+        "command": "-notifications.hideToasts",
+        "when": "notificationToastsVisible"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-editor.action.insertLineAfter",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+alt+enter",
+        "command": "jupyter.runallcells"
+    },
+    {
+        "key": "ctrl+alt+enter",
+        "command": "notebook.execute"
+    },
+    {
+        "key": "up",
+        "command": "cursorUp",
+        "when": "editorTextFocus && vim.active && !inDebugRepl && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+    },
+    {
+        "key": "k",
+        "command": "cursorUp",
+        "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode == 'Normal' && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+    },
+    {
+        "key": "down",
+        "command": "cursorDown",
+        "when": "editorTextFocus && vim.active && !inDebugRepl && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+    },
+    {
+        "key": "j",
+        "command": "cursorDown",
+        "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode == 'Normal' && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-github.copilot.generate",
+        "when": "editorTextFocus && github.copilot.activated"
+    },
+    {
+        "key": "shift+alt+\\",
+        "command": "github.copilot.generate"
+    },
+    {
+        "key": "ctrl+alt+c",
+        "command": "-glassit.decrease"
+    },
+    {
+        "key": "ctrl+alt+z",
+        "command": "-glassit.increase"
+    },
+    {
+        "key": "ctrl+alt+x",
+        "command": "-glassit.minimize"
+    }
+]

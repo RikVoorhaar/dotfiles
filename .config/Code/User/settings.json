@@ -1,0 +1,320 @@
+{
+    "vim.useCtrlKeys": false,
+    "python.linting.pycodestyleCategorySeverity.E": "Warning",
+    "python.linting.pycodestyleCategorySeverity.W": "Information",
+    "python.linting.pycodestyleEnabled": true,
+    "latex-workshop.view.pdf.viewer": "external",
+    "latex-workshop.message.warning.show": false,
+    "latex-workshop.message.error.show": false,
+    "latex-workshop.view.pdf.external.synctex.command": "/path/to/evince-synctex.sh",
+    "latex-workshop.view.pdf.external.synctex.args": [
+        "sync",
+        "%PDF%",
+        "%TEX%",
+        "%LINE%"
+    ],
+    "latex-workshop.view.pdf.external.viewer.command": "evince",
+    "editor.rulers": [
+        88
+    ],
+    "editor.acceptSuggestionOnEnter": "smart",
+    "vim.handleKeys": {
+        "<C-c>": false
+    },
+    "[latex]": {
+        "editor.autoClosingBrackets": "never",
+        "editor.autoClosingQuotes": "never",
+        "editor.rulers": [
+            100
+        ],
+        "editor.acceptSuggestionOnEnter": "off"
+    },
+    "[markdown]": {
+        "editor.acceptSuggestionOnEnter": "off",
+        "editor.rulers": [
+            110
+        ],
+    },
+    "python.formatting.blackArgs": [
+        "--line-length=80"
+    ],
+    "python.linting.pycodestyleArgs": [
+        "--max-line-length=80",
+        "--ignore=E203,E402"
+    ],
+    "python.terminal.launchArgs": [],
+    "jupyter.askForKernelRestart": false,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.list.openMode": "doubleClick",
+    "explorer.confirmDelete": false,
+    "git.autofetch": true,
+    "python.languageServer": "Pylance",
+    "editor.semanticHighlighting.enabled": false,
+    "python.linting.flake8Args": [
+        "max-line-length = 79"
+    ],
+    "workbench.editorAssociations": {
+        "*.pdf": "default",
+        "*.ipynb": "jupyter-notebook"
+    },
+    "git.enableSmartCommit": true,
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "pdflatex",
+            "tools": [
+                "pdfkatex"
+            ]
+        },
+        {
+            "name": "latexmk 🔃",
+            "tools": [
+                "latexmk"
+            ]
+        },
+        {
+            "name": "latexmk (latexmkrc)",
+            "tools": [
+                "latexmk_rconly"
+            ]
+        },
+        {
+            "name": "arara",
+            "tools": [
+                "arara"
+            ]
+        },
+        {
+            "name": "pdflatex ➞ bibtex ➞ pdflatex × 2",
+            "tools": [
+                "pdflatex",
+                "bibtex",
+                "pdflatex",
+                "pdflatex"
+            ]
+        },
+    ],
+    "terminal.integrated.tabs.enabled": true,
+    "[yaml]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced"
+    },
+    "editor.cursorStyle": "line",
+    "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+    "editor.wordWrap": "off",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "workbench.startupEditor": "none",
+    "python.formatting.provider": "black",
+    "security.workspace.trust.untrustedFiles": "open",
+    "keyboard.dispatch": "keyCode",
+    "latex-workshop.latex.recipe.default": "lastUsed",
+    "latex-workshop.view.pdf.trim": 2,
+    "latex-workshop.latex.autoBuild.run": "never",
+    "latex-workshop.view.pdf.ref.viewer": "external",
+    "notebook.lineNumbers": "on",
+    "diffEditor.maxComputationTime": 0,
+    "customWindowZoom.zoomLevelChangeValue": 0.05,
+    "git.confirmSync": false,
+    "python.defaultInterpreterPath": "/home/rik/.conda/envs/tensors/bin/python",
+    "notebook.navigation.allowNavigateToSurroundingCells": false,
+    "editor.overviewRulerBorder": false,
+    "python.linting.mypyEnabled": true,
+    "cmake.configureSettings": {
+        "CMAKE_TOOLCHAIN_FILE": "/opt/vcpkg/scripts/buildsystems/vcpkg.cmake"
+    },
+    "cmake.configureOnOpen": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "workbench.editor.closeOnFileDelete": true,
+    "workbench.editor.tabSizing": "shrink",
+    "editor.cursorBlinking": "smooth",
+    "diffEditor.codeLens": true,
+    "editor.minimap.enabled": false,
+    "files.autoGuessEncoding": true,
+    "files.enableTrash": false,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.closeEmptyGroups": false,
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false,
+        "latex": false
+    },
+    "notebook.output.textLineLimit": 100,
+    "editor.selectionClipboard": false,
+    "latex-utilities.message.update.show": false,
+    "window.menuBarVisibility": "visible",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "jake.autoDetect": "on",
+    "grunt.autoDetect": "on",
+    "gulp.autoDetect": "on",
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-pdf",
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "arara",
+            "command": "arara",
+            "args": [
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "lualatexmk",
+            "command": "latexmk",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-lualatex",
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "xelatexmk",
+            "command": "latexmk",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-xelatex",
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "latexmk_rconly",
+            "command": "latexmk",
+            "args": [
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "rnw2tex",
+            "command": "Rscript",
+            "args": [
+                "-e",
+                "knitr::opts_knit$set(concordance = TRUE); knitr::knit('%DOCFILE_EXT%')"
+            ],
+            "env": {}
+        },
+        {
+            "name": "jnw2tex",
+            "command": "julia",
+            "args": [
+                "-e",
+                "using Weave; weave(\"%DOC_EXT%\", doctype=\"tex\")"
+            ],
+            "env": {}
+        },
+        {
+            "name": "jnw2texmintex",
+            "command": "julia",
+            "args": [
+                "-e",
+                "using Weave; weave(\"%DOC_EXT%\", doctype=\"texminted\")"
+            ],
+            "env": {}
+        },
+        {
+            "name": "tectonic",
+            "command": "tectonic",
+            "args": [
+                "--synctex",
+                "--keep-logs",
+                "%DOC%.tex"
+            ],
+            "env": {}
+        }
+    ],
+    "terminal.external.linuxExec": "/usr/bin/zsh",
+    "[search-result]": {
+        "editor.lineNumbers": "on"
+    },
+    "git.ignoreLegacyWarning": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "bysabi.prettier-vscode-standard"
+    },
+    "gitlens.views.repositories.autoReveal": false,
+    "search.useIgnoreFiles": false,
+    "githubPullRequests.createOnPublishBranch": "never",
+    "settingsSync.ignoredSettings": [
+        "terminal.integrated.defaultProfile.linux"
+    ],
+    "editor.fontFamily": "'Source Code Pro','Droid Sans Mono', 'monospace', monospace",
+    "glassit.alpha": 245,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "github.copilot.advanced": {
+
+        "inlineSuggestCount": 3
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "jupyter.widgetScriptSources": [
+        "jsdelivr.com",
+        "unpkg.com"
+    ],
+    "vim.enableNeovim": true,
+    "debug.allowBreakpointsEverywhere": true,
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "jupyter.interactiveWindow.creationMode": "perFile",
+    "jupyter.interactiveWindow.textEditor.executeSelection": true,
+    "jupyter.interactiveWindow.textEditor.magicCommandsAsComments": true,
+    "vim.neovimUseConfigFile": true,
+    "git.openRepositoryInParentFolders": "always",
+    "[cython]": {},
+    "workbench.colorTheme": "Monokai",
+    "editor.fontSize": 12,
+    "window.customMenuBarAltFocus": false,
+    "window.titleBarStyle": "custom",
+    "files.autoSave": "afterDelay",
+    // "github.copilot.inlineSuggest.enable": false
+}
