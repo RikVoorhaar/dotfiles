@@ -316,5 +316,8 @@
     "window.customMenuBarAltFocus": false,
     "window.titleBarStyle": "custom",
     "files.autoSave": "afterDelay",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     // "github.copilot.inlineSuggest.enable": false
 }
