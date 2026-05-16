@@ -1,0 +1,89 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "ssh_connections": [
+    {
+      "host": "rik-server",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/home/rik"
+          ]
+        },
+        {
+          "paths": [
+            "/home/rik/git/qr-reader/./"
+          ]
+        }
+      ]
+    }
+  ],
+  "cli_default_open_behavior": "existing_window",
+  "vim": {
+    "toggle_relative_line_numbers": true
+  },
+  "relative_line_numbers": "wrapped",
+  "agent": {
+    "tool_permissions": {
+      "default": "allow"
+    },
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "gemini-3-flash",
+      "enable_thinking": false
+    },
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "session": {
+    "trust_all_worktrees": true
+  },
+  "vim_mode": true,
+  "node": {
+    "npm_path": "pnpm"
+  },
+  "minimap": {
+    "show": "never"
+  },
+  "use_system_path_prompts": true,
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 1000
+    }
+  },
+  "buffer_font_fallbacks": [
+    "DroidSansMono Nerd Font",
+    "Noto Sans Mono"
+  ],
+  "buffer_font_family": "Liberation Mono",
+  "file_types": {
+    "rust": [
+      "*.rs"
+    ]
+  },
+  "show_edit_predictions": true,
+  "wrap_guides": [
+    110
+  ],
+  "agent_servers": {
+    "cursor": {
+      "type": "registry"
+    }
+  },
+  "base_keymap": "VSCode",
+  "icon_theme": "Zed (Default)",
+  "ui_font_size": 16,
+  "buffer_font_size": 12.0,
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Ayu Mirage",
+  },
+}
