@@ -2,6 +2,27 @@
 
 Quick setup for managing these dotfiles using [GNU Stow](https://www.gnu.org/software/stow/).
 
+## Prerequisites
+
+To ensure everything looks and works correctly, install the following:
+
+### 1. Fonts (Required for Waybar Icons)
+- **Font Awesome** (general icons)
+- **Nerd Fonts** (system icons)
+
+```bash
+# Arch Linux
+yay -S otf-font-awesome ttf-jetbrains-mono-nerd
+```
+
+### 2. Bluetooth Manager
+To use the click-to-open feature for Bluetooth in Waybar:
+```bash
+# Arch Linux
+yay -S blueman
+sudo systemctl enable --now bluetooth.service
+```
+
 ## Quick Setup
 
 1.  **Clone the repository**
@@ -14,13 +35,7 @@ Quick setup for managing these dotfiles using [GNU Stow](https://www.gnu.org/sof
     Make sure `stow` is installed on your system.
     ```bash
     # Arch Linux
-    sudo pacman -S stow
-
-    # Debian/Ubuntu
-    sudo apt install stow
-
-    # macOS (Homebrew)
-    brew install stow
+    yay -S stow
     ```
 
 3.  **Backup existing configs**
@@ -34,6 +49,7 @@ Quick setup for managing these dotfiles using [GNU Stow](https://www.gnu.org/sof
     *Example:*
     ```bash
     stow hypr
+    stow waybar
     ```
 
 5.  **Push changes to remote**
