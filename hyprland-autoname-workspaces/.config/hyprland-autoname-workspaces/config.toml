@@ -1,42 +1,34 @@
 version = "1.2.0"
 
-# [format]
-# Deduplicate icons if enable.
-# A superscripted counter will be added.
-# dedup = false
-# dedup_inactive_fullscreen = false # dedup more
-# window delimiter
-# delim = " "
-# max_clients = 30 # you should not need this
+[format]
+dedup = true
+delim = " "
+workspace = "{clients}"
+client = "{icon}{delim}"
+client_active = "{icon}{delim}"
+client_dup = "{icon}{counter_sup}{delim}"
 
 # available formatter:
 # {counter_sup} - superscripted count of clients on the workspace, and simple {counter}, {delim}
 # {icon}, {client}
-# workspace formatter
+# workspace formatter (commented-out originals for reference)
 # workspace = "{id}:{delim}{clients}" # {id}, {delim} and {clients} are supported
-# workspace_empty = "{id}" # {id}, {delim} and {clients} are supported
-# client formatter
-# client = "{icon}"
-# client_active = "*{icon}*"
-
-# deduplicate client formatter
-# client_fullscreen = "[{icon}]"
-# client_dup = "{client}{counter_sup}"
-# client_dup_fullscreen = "[{icon}]{delim}{icon}{counter_unfocused}"
-# client_dup_active = "*{icon}*{delim}{icon}{counter_unfocused}"
+# workspace_empty = "{id}"            # {id}, {delim} and {clients} are supported
 
 [class]
 # Add your icons mapping
 # use double quote the key and the value
 # take class name from 'hyprctl clients'
-"DEFAULT" = " {class}: {title}"
-"(?i)Kitty" = "term"
-"[Ff]irefox" = "browser"
-"(?i)waydroid.*" = "droid"
+"DEFAULT" = "{class}"
+"(?i)kitty" = "Kitty "
+"(?i)google-chrome" = "Chrome 󰊯"
+"dev.zed.Zed" = "Zed 󱓾"
+"(?i)obsidian" = "Obsidian 󱓧"
+"[Ff]irefox" = "Firefox 󰈹"
+"(?i)waydroid.*" = "Waydroid 󰀲"
 
-[class_active]
-DEFAULT = "*{icon}*"
-"(?i)ExampleOneTerm" = "<span foreground='red'>{icon}</span>"
+# [class_active] removed — active windows use [class] values directly,
+# with no asterisk/bold wrapping. Waybar CSS handles active workspace highlighting.
 
 # [initial_class]
 # "DEFAULT" = " {class}: {title}"
