@@ -1,0 +1,32 @@
+[2026-05-17 21:55:51.960] [info] Using configuration file /home/rik/.config/waybar/config
+[2026-05-17 21:55:51.963] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
+[2026-05-17 21:55:51.963] [info] Using CSS file /home/rik/.config/waybar/style.css
+[2026-05-17 21:55:51.970] [info] Hyprland IPC starting
+[2026-05-17 21:55:51.970] [info] Loading persistent workspaces from Hyprland workspace rules
+Discharging
+[2026-05-17 21:55:52.106] [warning] Requested height: 18 is less than the minimum height: 26 required by the modules
+[2026-05-17 21:55:52.107] [info] Bar configured (width: 1920, height: 26) for output: eDP-1
+[2026-05-17 21:55:56.304] [info] Bar configured (width: 1964, height: 26) for output: eDP-1
+[2026-05-17 21:55:57.644] [info] Bar configured (width: 1920, height: 26) for output: eDP-1
+[2026-05-17 21:55:58.332] [info] Bar configured (width: 1964, height: 26) for output: eDP-1
+[2026-05-17 21:55:59.053] [info] Bar configured (width: 1920, height: 26) for output: eDP-1
+[2026-05-17 21:56:01.657] [info] Bar configured (width: 2172, height: 26) for output: eDP-1
+[2026-05-17 21:56:01.970] [info] Bar configured (width: 2046, height: 26) for output: eDP-1
+[2026-05-17 21:56:02.507] [info] Bar configured (width: 2172, height: 26) for output: eDP-1
+[2026-05-17 21:56:03.558] [info] Bar configured (width: 1920, height: 26) for output: eDP-1
+
+(nm-connection-editor:15920): Gtk-CRITICAL **: 21:56:06.140: gtk_tree_model_sort_set_sort_column_id: assertion 'priv->default_sort_func != NULL' failed
+Discharging
+[2026-05-17 21:56:12.424] [info] Bar configured (width: 1930, height: 26) for output: eDP-1
+[2026-05-17 21:56:12.974] [info] Bar configured (width: 1920, height: 26) for output: eDP-1
+[2026-05-17 21:56:13.530] [info] Bar configured (width: 1930, height: 26) for output: eDP-1
+[2026-05-17 21:56:14.017] [info] Bar configured (width: 1920, height: 26) for output: eDP-1
+[2026-05-17 21:56:16.536] [info] Bar configured (width: 1930, height: 26) for output: eDP-1
+[2026-05-17 21:56:17.387] [info] Bar configured (width: 1920, height: 26) for output: eDP-1
+[2026-05-17 21:56:20.641] [info] Bar configured (width: 2138, height: 26) for output: eDP-1
+[2026-05-17 21:56:20.902] [info] Bar configured (width: 2012, height: 26) for output: eDP-1
+[2026-05-17 21:56:21.011] [info] Bar configured (width: 2138, height: 26) for output: eDP-1
+** Message: 21:56:24.421: Cannot save connection due to error: Invalid setting Wi-Fi: 802-11-wireless.ssid: property is missing
+[2026-05-17 21:56:24.477] [info] Bar configured (width: 1920, height: 26) for output: eDP-1
+[2026-05-17 21:56:24.510] [info] Bar configured (width: 2138, height: 26) for output: eDP-1
+[2026-05-17 21:56:27.829] [info] Bar configured (width: 1920, height: 26) for output: eDP-1
