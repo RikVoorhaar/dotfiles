@@ -3,9 +3,9 @@ version = "1.2.0"
 [format]
 dedup = true
 delim = " "
-workspace = "{clients}"
+workspace = "{id} {clients}"
 client = "{icon}{delim}"
-client_active = "{icon}{delim}"
+client_active = "<u>{icon}{delim}</u>"
 client_dup = "{icon}{counter_sup}{delim}"
 
 # available formatter:
@@ -20,12 +20,16 @@ client_dup = "{icon}{counter_sup}{delim}"
 # use double quote the key and the value
 # take class name from 'hyprctl clients'
 "DEFAULT" = "{class}"
-"(?i)kitty" = "Kitty "
-"(?i)google-chrome" = "Chrome 󰊯"
-"dev.zed.Zed" = "Zed 󱓾"
-"(?i)obsidian" = "Obsidian 󱓧"
-"[Ff]irefox" = "Firefox 󰈹"
-"(?i)waydroid.*" = "Waydroid 󰀲"
+"(?i)kitty" = " Kitty"
+"(?i)alacritty" = " Alacritty"
+"(?i)google-chrome" = "󰊯 Chrome"
+"(?i)cursor" = "󰘐 Cursor"
+"dev.zed.Zed" = "󱓾 Zed"
+"(?i)obsidian" = "󱓧 Obsidian"
+"[Ff]irefox" = "󰈹 Firefox"
+"(?i)bambu" = "󰹻 Bambu Studio"
+"(?i)(evince|okular)" = "󰈦 PDF"
+"(?i)waydroid.*" = "󰀲 Waydroid"
 
 # [class_active] removed — active windows use [class] values directly,
 # with no asterisk/bold wrapping. Waybar CSS handles active workspace highlighting.
