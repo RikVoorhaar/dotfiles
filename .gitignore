@@ -1,1 +1,8 @@
 nohup.out
+
+# Cursor: Only keep settings and snippets
+cursor/.config/cursor/*
+!cursor/.config/cursor/settings.json
+!cursor/.config/cursor/keybindings.json
+!cursor/.config/cursor/snippets/
+!cursor/.config/cursor/cli-config.json

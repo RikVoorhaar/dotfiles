@@ -74,6 +74,9 @@
     110
   ],
   "agent_servers": {
+    "gemini": {
+      "type": "registry"
+    },
     "cursor": {
       "type": "registry"
     }

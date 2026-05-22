@@ -1,0 +1,98 @@
+{
+  "permissions": {
+    "allow": [
+      "Shell(ls)",
+      "Shell(cd)",
+      "Shell(git log)",
+      "Shell(head)",
+      "Shell(git status)",
+      "Shell(git remote)",
+      "Shell(which)",
+      "Shell(git filter-repo)",
+      "Shell(true)",
+      "Shell(command)",
+      "Shell(pip install)",
+      "Shell(pacman)",
+      "Shell(python)",
+      "Shell(type)",
+      "Shell(sudo)",
+      "Shell(yay)",
+      "Shell(paru)",
+      "Shell(cp)",
+      "Shell(chmod)"
+    ],
+    "deny": []
+  },
+  "version": 1,
+  "editor": {
+    "vimMode": false
+  },
+  "notifications": true,
+  "hints": true,
+  "rewind": false,
+  "suggestNextPrompt": false,
+  "model": {
+    "modelId": "composer-2.5",
+    "displayModelId": "composer-2.5",
+    "displayName": "Composer 2.5 Fast",
+    "displayNameShort": "Composer 2.5 Fast",
+    "aliases": [],
+    "maxMode": false
+  },
+  "hasChangedDefaultModel": false,
+  "maxMode": false,
+  "modelParameters": {
+    "composer-2.5": [
+      {
+        "id": "fast",
+        "value": "true"
+      }
+    ]
+  },
+  "selectedModel": {
+    "modelId": "composer-2.5",
+    "parameters": [
+      {
+        "id": "fast",
+        "value": "true"
+      }
+    ]
+  },
+  "privacyCache": {
+    "ghostMode": true,
+    "privacyMode": 2,
+    "updatedAt": 1779449735598
+  },
+  "serverConfigCache": {
+    "backendUrl": "https://api2.cursor.sh",
+    "authCacheKey": "auth:github|user_01JCDHTA81509XDKFZ07502M7N",
+    "teamId": 309701,
+    "agentUrlConfig": {
+      "agentUrl": "https://agentn.global.api5.cursor.sh",
+      "agentnUrl": "https://agentn.global.api5.cursor.sh"
+    },
+    "cliSandboxDefaultEnabled": false,
+    "updatedAt": 1779449686178
+  },
+  "authInfo": {
+    "email": "rik.voorhaar@grazper.com",
+    "displayName": "Rik Voorhaar",
+    "teamId": 309701,
+    "teamName": "Grazper",
+    "userId": 132738461,
+    "authId": "github|user_01JCDHTA81509XDKFZ07502M7N"
+  },
+  "network": {
+    "useHttp1ForAgent": false
+  },
+  "approvalMode": "allowlist",
+  "sandbox": {
+    "mode": "disabled",
+    "networkAccess": "user_config_with_defaults"
+  },
+  "runEverythingSettingsPromptStreak": 0,
+  "attribution": {
+    "attributeCommitsToAgent": true,
+    "attributePRsToAgent": true
+  }
+}
