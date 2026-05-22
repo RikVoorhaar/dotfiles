@@ -1,0 +1,86 @@
+[global]
+    ### Display ###
+    monitor = 0
+    follow = mouse
+
+    ### Geometry ###
+    width = 350
+    height = 200
+    origin = top-right
+    offset = 20x20
+    scale = 0
+    notification_limit = 0
+
+    ### Progress bar ###
+    progress_bar = true
+    progress_bar_height = 8
+    progress_bar_frame_width = 1
+    progress_bar_min_width = 150
+    progress_bar_max_width = 350
+
+    ### Fixed settings ###
+    indicate_hidden = yes
+    transparency = 0
+    separator_height = 2
+    padding = 12
+    horizontal_padding = 12
+    text_icon_padding = 12
+    frame_width = 1
+    frame_color = "#89b4fa"
+    separator_color = frame
+    sort = yes
+    idle_threshold = 120
+
+    ### Text ###
+    font = JetBrains Mono 11
+    line_height = 4
+    markup = full
+    format = "<span size='large' weight='bold' foreground='#89b4fa'>%s</span>\n%b"
+    alignment = left
+    vertical_alignment = center
+    show_indicators = yes
+    icon_position = left
+    min_icon_size = 0
+    max_icon_size = 48
+    icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
+
+    ### History ###
+    sticky_history = yes
+    history_length = 20
+
+    ### Misc/Advanced ###
+    dmenu = /usr/bin/wofi -dmenu -p dunst:
+    browser = /usr/bin/google-chrome-stable
+    always_run_script = true
+    title = Dunst
+    class = Dunst
+    corner_radius = 8
+    ignore_dbusclose = false
+
+    ### Wayland ###
+    force_xwayland = false
+    force_xinerama = false
+    mouse_left_click = close_current
+    mouse_middle_click = do_action, close_current
+    mouse_right_click = close_all
+
+[experimental]
+    per_monitor_dpi = false
+
+[urgency_low]
+    background = "#1e1e2e"
+    foreground = "#cdd6f4"
+    frame_color = "#45475a"
+    timeout = 10
+
+[urgency_normal]
+    background = "#1e1e2e"
+    foreground = "#cdd6f4"
+    frame_color = "#89b4fa"
+    timeout = 10
+
+[urgency_critical]
+    background = "#1e1e2e"
+    foreground = "#cdd6f4"
+    frame_color = "#f38ba8"
+    timeout = 0
