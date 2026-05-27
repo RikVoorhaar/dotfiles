@@ -31,14 +31,15 @@
   },
   "relative_line_numbers": "wrapped",
   "agent": {
-    "default_profile": "ask",
+    "default_profile": "write",
     "tool_permissions": {
       "default": "allow"
     },
     "default_model": {
+      "effort": "medium",
       "provider": "zed.dev",
-      "model": "claude-haiku-4-5",
-      "enable_thinking": false
+      "model": "gpt-5.3-codex",
+      "enable_thinking": true
     },
     "favorite_models": [],
     "model_parameters": []
