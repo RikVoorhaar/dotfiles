@@ -19,7 +19,8 @@
       "Shell(yay)",
       "Shell(paru)",
       "Shell(cp)",
-      "Shell(chmod)"
+      "Shell(chmod)",
+      "Shell(npm run)"
     ],
     "deny": []
   },
@@ -59,28 +60,25 @@
     ]
   },
   "privacyCache": {
-    "ghostMode": true,
-    "privacyMode": 2,
-    "updatedAt": 1779449735598
+    "ghostMode": false,
+    "privacyMode": 4,
+    "updatedAt": 1779453489837
   },
   "serverConfigCache": {
     "backendUrl": "https://api2.cursor.sh",
-    "authCacheKey": "auth:github|user_01JCDHTA81509XDKFZ07502M7N",
-    "teamId": 309701,
+    "authCacheKey": "auth:auth0|user_01KESY9NAQ8TDQGFJB5J86KBNV",
     "agentUrlConfig": {
       "agentUrl": "https://agentn.global.api5.cursor.sh",
       "agentnUrl": "https://agentn.global.api5.cursor.sh"
     },
     "cliSandboxDefaultEnabled": false,
-    "updatedAt": 1779449686178
+    "updatedAt": 1779453474320
   },
   "authInfo": {
-    "email": "rik.voorhaar@grazper.com",
+    "email": "rik.voorhaar@gmail.com",
     "displayName": "Rik Voorhaar",
-    "teamId": 309701,
-    "teamName": "Grazper",
-    "userId": 132738461,
-    "authId": "github|user_01JCDHTA81509XDKFZ07502M7N"
+    "userId": 316718706,
+    "authId": "auth0|user_01KESY9NAQ8TDQGFJB5J86KBNV"
   },
   "network": {
     "useHttp1ForAgent": false
